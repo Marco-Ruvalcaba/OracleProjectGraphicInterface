@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Futura-Demi_Bold;
+    src: url(fonts/Futura-Demi_bold.otf);
+}
+@font-face {
+    font-family: Futura-Light;
+    src: url(fonts/Futura-Light.otf);
+}
+@font-face {
+    font-family: Helvetica-Medium;
+    src: url(fonts/Helvetica-Medium.otf);
+}
+@font-face {
+    font-family: Helvetica-Light;
+    src: url(fonts/Helvetica-Light.ttf);
+}
+
+html{
+    scroll-behavior: smooth; /*SMOOTH SCROLL*/
+} 
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+    display: flex;
+    align-items: center;    
+    justify-content: center; 
+
+    background: #f1f1f1;
+}
+
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 80px;
+}
+p{
+    font-size: 25px;
+}
+a{
+    font-size: 50px;
+    text-decoration: none;
+}
+.titulo{
+    font-family: Futura-Demi_Bold;
+}
+.parrafo{
+    font-family: Helvetica-Light;
+}
+.enlaces{
+    font-family: Helvetica-medium;
+}
+
+/* E S T I L O S    I N D E X */
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;     
+    justify-content: center;
+    align-content: stretch;
+
+    background: rgb(56, 20, 155);
+
+    color: blanchedalmond;
+}
+.contenedorBotones{
+    width: 80%;
+    height: 15%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.boton{
+    width: 24%;
+    height: 80%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 4rem;
+    background: rgb(233, 225, 225); 
+}
+.boton:hover{
+    opacity: 60%;
+}
+
+/* E S T I L O S    S E L L E R */
+
+/* E S T I L O S    B U Y E R */
